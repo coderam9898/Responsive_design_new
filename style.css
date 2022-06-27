@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbar{
+    width: 100%;
+    height: 5%;
+    border: 12px solid rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 20%;
+    min-width: 10%;
+    min-height: 10%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 15px rgb(110, 110, 110);
+}
+@media screen and (max-width: 1024px) {
+    .card{
+        width: 15%;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .card{
+        width: 20%;
+    }
+    
+}
+@media screen and (max-width: 568px) {
+    .card{
+        width: 100%;
+    }
+    
+}
